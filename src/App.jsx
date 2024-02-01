@@ -1,6 +1,6 @@
 import './App.css';
 import {SideBar} from "./components/SideBar";
-import {AddContact} from "./components/AddContact";
+import {AddContact} from "./components/contact/AddContact";
 import {useState} from "react";
 import {Dashboard} from "./components/dashboard/Dashboard";
 

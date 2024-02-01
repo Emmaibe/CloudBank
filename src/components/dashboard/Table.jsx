@@ -1,6 +1,6 @@
 import {useState} from "react";
 import Modal from "react-modal";
-import {EditContact} from "./EditContact";
+import {EditContact} from "../contact/EditContact";
 
 export const Table = ({ contacts, handleSelectContact, handleEditContact }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
